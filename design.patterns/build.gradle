@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'org.sai'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.apache.commons:commons-configuration2:2.7'
+    compile group: 'org.javatuples', name: 'javatuples', version: '1.2'
+}
